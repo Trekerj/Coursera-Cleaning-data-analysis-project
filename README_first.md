@@ -1,6 +1,8 @@
 # Coursera-Cleaning-data-analysis-project
-This is the README file for the 'run_analysis.R' script.
-Addition source file information is in the 'README_souce' file. This file can also me opened from the run_analysis.R script.
+This is the README file for the 'run_analysis.R' script./n
+
+The 'README_souce' file contains information on the UCI HAR dataset files and sub-directories. This is the code book for the data files and inlcudes all attributions for the data set.
+In the run_annalysis.r scripts there is code chunk to open this README file directly.
 
 1) Load tidyverse into the library. This includes all tidy packages needed for the script.
 
