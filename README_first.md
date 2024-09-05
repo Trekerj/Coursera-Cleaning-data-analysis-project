@@ -1,10 +1,11 @@
 # Coursera-Cleaning-data-analysis-project
 This is the README file for the 'run_analysis.R' script.
 
-The 'README_souce' file contains information on the UCI HAR dataset files and sub-directories. This is the code book for the data files and inlcudes all attributions for the data set.
+The 'README_souce' file contains information on the UCI HAR dataset files and sub-directories. This is the code book, from the data source, for the data files and inlcudes all attributions for the data set.
 In the run_annalysis.r scripts there is code chunk to open this README file directly.
 
-This R script is about downloading and processing two data set, combining several data frames into a single data frame. Then goruping and selecting a sub-set of variables, and summarizing the subsets.
+The run_analysis script is about downloading and processing two data set, combining several data frames into a single data frame. Then goruping and selecting a sub-set of variables, and summarizing the subsets.
+The final grouped_df dataframe is a tidy df grouped by experiment activities within eperiment subjects. 
 
 Code steps:
 
