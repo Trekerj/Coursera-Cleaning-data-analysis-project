@@ -8,12 +8,6 @@ download.file(url, tempFile)
 unzip(tempFile)
 file.remove(tempFile)
 
-# Note: the source the code book for the data set is the following readme.txt file
-# This includes the instructions for use of the data set. Run the next setps if you wish to review
-readme_path <- "UCI HAR Dataset/README.txt"
-readme_content <- readLines(readme_path, encoding = "UTF-8")
-cat(paste(readme_content, collapse = "\n"))
-
 # load feature and activity labels
 feature_labels <- read.table("UCI HAR Dataset/features.txt")
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
